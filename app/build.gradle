@@ -1,7 +1,5 @@
-plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-}
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdk 34
@@ -34,7 +32,5 @@ android {
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.core:core-ktx:1.12.0'
-    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
-    implementation 'androidx.security:security-crypto:1.1.0-alpha06'
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'
 }
